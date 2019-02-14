@@ -1,0 +1,85 @@
+body{
+    font-family: fantasy;
+    background-color: darkgoldenrod;
+    margin:0;
+    padding:0;
+    background-image: url(tackling.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 25%;
+}
+
+#wrap {
+  width: 75%;
+  margin: 0 auto
+}
+
+header img{
+    width:25%;
+}
+
+header {
+   background-color: #dddddd;
+   padding: 10px;
+    text-align: center;
+    background-color: rebeccapurple;
+    background-image: linear-gradient (#f29c2b, #2857a3);
+}
+
+nav{
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px
+    font-family: Georgia;
+}
+
+nav li{
+    display: inline;
+    /*padding: 20px;*/
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+nav a:hover {
+    color: rebeccapurple;
+    background-color: darkgoldenrod;
+    
+}
+
+section{
+    padding: 10px;
+    background-color: white;
+    overflow: auto;
+}
+
+
+.button{
+    background-color:rebeccapurple;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 15px 0;
+    display: inline-block;
+}
+
+a.button:hover{
+    background-color: darkgoldenrod;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
